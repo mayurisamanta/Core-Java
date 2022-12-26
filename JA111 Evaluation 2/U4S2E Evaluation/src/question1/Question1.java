@@ -1,6 +1,6 @@
 package question1;
 
-
+import java.util.Arrays;
 
 public class Question1 {
 	public static void main(String[] args) {
@@ -27,11 +27,11 @@ public class Question1 {
 		System.out.println(res2); //true
 		
 		char[] c = m.toCharArray();
-		System.out.println(c);
+		System.out.println(Arrays.toString(c));
 		
 		String o = "Ma.yu.ri";
 		String[] s = o.split(".");
-		System.out.println(s);
+		System.out.println(Arrays.toString(s));
 		
 		
 //Question 2
