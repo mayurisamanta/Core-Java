@@ -1,0 +1,16 @@
+a) Does the below code compile successfully? If not, why?
+interface A{
+	int i = 111;
+}
+
+class B implements A{
+	void methodB(){
+		i = 222;
+	}
+}
+
+Ans : While using interface the implementation class will have all the variables and methods from 
+the interface class. In this code we are trying to assign the value of i inside B class, which is 
+implementation class of A. int i is already present in class A which by default will be static and
+final variable because it is interface. So we can't re-assign the value of final variable in any
+of the implementation class.
