@@ -20,4 +20,5 @@ public class Calculation {
 		Calculation c1 = new Calculation();
 		c1.print(14);
 	}
+	
 }
