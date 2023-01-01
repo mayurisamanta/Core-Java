@@ -8,6 +8,7 @@ public class Main {
 		System.out.println(c);
 	}
 	
+	
 //	result data type will be according to the following formula:
 //	max (int, type1, type2, type3,...)
 //	according to the above formula, the result data type of the above expression will be “int”
