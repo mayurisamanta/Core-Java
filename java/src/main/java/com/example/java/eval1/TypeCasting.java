@@ -1,6 +1,6 @@
-package question3;
+package com.example.java.eval1;
 
-public class Main {
+public class TypeCasting {
 	public static void main(String[] args) {
 		int a = 64;
 		int b = 70;

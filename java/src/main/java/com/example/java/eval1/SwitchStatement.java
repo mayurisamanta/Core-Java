@@ -1,9 +1,8 @@
-package question2;
+package com.example.java.eval1;
 
-public class Main {
+public class SwitchStatement {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		printMonth("FEB");
 	}
 	public static void printMonth(String month){
