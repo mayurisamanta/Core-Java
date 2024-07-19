@@ -1,9 +1,8 @@
-package com.masai;
+package com.example.java.day3.staticmethod;
 
-public class Problem2 {
+public class Factor {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		factor (12);
 	}
 	public static void factor(int n) {
